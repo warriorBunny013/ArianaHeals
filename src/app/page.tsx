@@ -180,7 +180,7 @@ export default function Home() {
             href="#services" 
             // onClick={() => navigateTo('newsletter')} 
             
-            className=" shadow-black hover: scale-150 shadow-2xl bg-black rounded-md font-normal text-sm lg:text-lg px-10 text-white font-serif mb-10 border py-4 cursor-pointer ease-in hover:bg-gray-900 "
+            className=" shadow-black hover:scale-150 shadow-2xl bg-black rounded-md font-normal text-sm lg:text-lg px-10 text-white font-serif mb-10 py-4 cursor-pointer ease-in hover:bg-gray-900 "
             style={{
               background:
                 "linear-gradient(180deg, var(--black), var(--slate-900) ",
@@ -215,7 +215,7 @@ export default function Home() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-3xl font-serif font-medium text-gray-700 dark:text-white">
+            <h1 className="text-lg lg:text-3xl font-serif font-medium text-gray-700 dark:text-white">
             Life coaching vs Therapy <br />
               <span className="text-4xl md:text-[6rem] text-black font-bold mt-1 leading-none">
               Holistic Approach Life Coaching 
