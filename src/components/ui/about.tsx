@@ -3,14 +3,7 @@
 import { motion } from "framer-motion";
 
 const About: React.FC = () => {
-  // Define the type for the URL parameter
-  const handleInsta = (url: string): void => {
-    window.open(url, "_blank");
-  };
-
-  const handleTiktok = (url: string): void => {
-    window.open(url, "_blank");
-  };
+ 
 
   return (
     <div className="pt-40 pb-10 mt-40 overflow-x-hidden pl-5 pr-5 lg:px-40 justify-center font-serif"
