@@ -75,9 +75,10 @@ const item = [
 ];
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       {/* HOME PAGE */}
-      <div className="overflow-x-hidden font-serif">
+      <div className="overflow-x-hidden font-serif"
+      >
       
 
         <div 
@@ -165,7 +166,7 @@ export default function Home() {
             <div 
               className=' lg:w-[65vh] pr-10 md:pr-0 text-sm lg:text-lg font-serif text-gray-600'
             >
-            "Spiritual alignment through prana healing & coaching, human design enthusiast, and into all things mystical"
+            &quot; Spiritual alignment through prana healing & coaching, human design enthusiast, and into all things mystical &quot;
             </div>
             <div className="flex justify-end mt-2 mb-8">
             <div 
@@ -191,10 +192,12 @@ export default function Home() {
           </a>
           
           </div>
+          {/* <picture> */}
           <div className='w-[77vh]'>
             <img src='/images/Ariana.avif' className="rounded-full mt-10 lg:mt-0" alt='hero'/>
               
           </div>
+          {/* </picture> */}
         </div>
       </div>
       <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
@@ -260,7 +263,7 @@ export default function Home() {
       }}>
           <div className='w-full  mx-auto max-w-screen-xl p-4 md:flex gap-3 md:items-center md:justify-between'>
             <div className='max-w-1/2 mb-10 text-sm text-gray-300'>
-              <span className='font-bold'>Disclaimer:</span> The life coaching services provided by Ariana Sadre, Holistic Life Coach, are designed to guide and support personal growth, alignment, and well-being. These services are not a substitute for medical, psychological, or professional advice. Results may vary, and all actions taken based on coaching sessions are the client's responsibility. Always consult appropriate professionals for health, legal, or financial concerns.
+              <span className='font-bold'>Disclaimer:</span> The life coaching services provided by Ariana Sadre, Holistic Life Coach, are designed to guide and support personal growth, alignment, and well-being. These services are not a substitute for medical, psychological, or professional advice. Results may vary, and all actions taken based on coaching sessions are the client&apos;s responsibility. Always consult appropriate professionals for health, legal, or financial concerns.
             </div>
           </div>
           <div className="w-full mx-auto max-w-screen-xl p-4 md:flex gap-3 md:items-center md:justify-between">
