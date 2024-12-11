@@ -72,7 +72,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)] bg-green-200",
         className
       )}
     >
@@ -87,10 +87,10 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             className="w-[350px] max-w-full relative rounded-lg border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
-            style={{
-              background:
-                "linear-gradient(180deg, var(--black), var(--slate-900) ",
-            }}
+            // style={{
+            //   background:
+            //     "linear-gradient(180deg, var(--black), var(--slate-900) ",
+            // }}
             key={idx}  // Changed `key` to `idx` to avoid duplicate key warning
           >
             <blockquote>
@@ -106,9 +106,7 @@ export const InfiniteMovingCards = ({
                   </span>
                 </span>
               </div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-300 font-normal font-serif">
-                {item.quote}
-              </span>
+             
               
             </blockquote>
           </li>
