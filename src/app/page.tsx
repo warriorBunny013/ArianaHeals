@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
-import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+// import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+// import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import About from "@/components/ui/about";
 import {Services} from "@/components/ui/services";
@@ -9,98 +9,98 @@ import {Services} from "@/components/ui/services";
 // import CardDemo from "@/components/blocks/cards-demo-2";
 
 // const NoSSRTestimonials = dynamic(() => AnimatedTestimonials, { ssr: false });
-const testimonialsData = [
-  {
-    quote: "Ariana's coaching provided a safe, empowering space for me to work through limiting beliefs. I feel more confident and connected to my path than ever before",
-    name: "Emily R",
-    designation: "Marketing Manager",
-    src: "/images/testimonial1.jpg",
-  },
-  {
-    quote: "Working with Ariana has been life-changing! Her insights into Human Design gave me tools I use daily to make better decisions and stay aligned with my purpose. I can't recommend her enough!",
-    name: "Sarah T.",
-    designation: "Wellness Entrepreneur",
-    src: "/images/testimonial2.jpg",
-  },
-  {
-    quote: "Ariana's coaching helped me reframe old thought patterns and focus on actionable steps to grow my business. I appreciate her thoughtful guidance and unique ability to bring out the best in others.",
-    name: "Michael S.",
-    designation: "Freelance Designer",
-    src: "/images/testimonial3.jpg",
-  },
-  {
-    quote: `Hi Ariana - Thank you for providing your life coaching services to me at a time where I probably needed it the most. 
-    The lessons on human design helped me better understand who I am at the core. I learned that as a generator I create energy 
-    around me and attract opportunity from life. My human design also explained why I’m constantly in my head and that the moments 
-    of frustration in my life (there are many) stem from not being my true self. 
+// const testimonialsData = [
+//   {
+//     quote: "Ariana's coaching provided a safe, empowering space for me to work through limiting beliefs. I feel more confident and connected to my path than ever before",
+//     name: "Emily R",
+//     designation: "Marketing Manager",
+//     src: "/images/testimonial1.jpg",
+//   },
+//   {
+//     quote: "Working with Ariana has been life-changing! Her insights into Human Design gave me tools I use daily to make better decisions and stay aligned with my purpose. I can't recommend her enough!",
+//     name: "Sarah T.",
+//     designation: "Wellness Entrepreneur",
+//     src: "/images/testimonial2.jpg",
+//   },
+//   {
+//     quote: "Ariana's coaching helped me reframe old thought patterns and focus on actionable steps to grow my business. I appreciate her thoughtful guidance and unique ability to bring out the best in others.",
+//     name: "Michael S.",
+//     designation: "Freelance Designer",
+//     src: "/images/testimonial3.jpg",
+//   },
+//   {
+//     quote: `Hi Ariana - Thank you for providing your life coaching services to me at a time where I probably needed it the most. 
+//     The lessons on human design helped me better understand who I am at the core. I learned that as a generator I create energy 
+//     around me and attract opportunity from life. My human design also explained why I’m constantly in my head and that the moments 
+//     of frustration in my life (there are many) stem from not being my true self. 
 
-    Through the dharma blueprint, you helped me pinpoint my superpowers by talking through my personal archetypes, what makes me 
-    excited, the mediums I enjoy working through, and the obstacles that have contributed to who I am today. 
+//     Through the dharma blueprint, you helped me pinpoint my superpowers by talking through my personal archetypes, what makes me 
+//     excited, the mediums I enjoy working through, and the obstacles that have contributed to who I am today. 
 
-    You created a safe space that allowed me to be open about my fears, stresses, desires, aspirations, pleasures, and much more. 
-    After only a few moments in our first session, I knew I was in a judgement-free zone and that I could be honest. You pushed me 
-    to get out of my comfort zone and try new things. By trying new things, I’m learning what I like and don’t like. I’m also making 
-    an effort to be friendlier and open on a regular basis. I’ve already made a couple of new friends, which I thought was impossible 
-    at this age. Even though I haven’t put together the podcast with my brother yet, I’ve been more open with him, and our 
-    communication is better than it’s ever been. 
+//     You created a safe space that allowed me to be open about my fears, stresses, desires, aspirations, pleasures, and much more. 
+//     After only a few moments in our first session, I knew I was in a judgement-free zone and that I could be honest. You pushed me 
+//     to get out of my comfort zone and try new things. By trying new things, I’m learning what I like and don’t like. I’m also making 
+//     an effort to be friendlier and open on a regular basis. I’ve already made a couple of new friends, which I thought was impossible 
+//     at this age. Even though I haven’t put together the podcast with my brother yet, I’ve been more open with him, and our 
+//     communication is better than it’s ever been. 
 
-    I loved the dynamic of you working with both my partner Annie and me under separate settings. You had an unbiased glimpse into 
-    our relationship that helped us understand each other in ways we wouldn’t have otherwise been able to. I’m more open with her too, 
-    and although our communication is still a work in progress, it’s getting better by the day. 
+//     I loved the dynamic of you working with both my partner Annie and me under separate settings. You had an unbiased glimpse into 
+//     our relationship that helped us understand each other in ways we wouldn’t have otherwise been able to. I’m more open with her too, 
+//     and although our communication is still a work in progress, it’s getting better by the day. 
 
-    Thank you again for your time. I’ve put the tools you showed me to good use, and although I have plenty more work to do, I am 
-    definitely seeing and feeling progress. I can’t wait to look back on this experience and reflect on the full effect on how you 
-    shaped my bright future!`,
-    name: "Reza T.",
-    designation: "Client",
-    src: "/images/testimonial4.jpg",
-  },
-];
+//     Thank you again for your time. I’ve put the tools you showed me to good use, and although I have plenty more work to do, I am 
+//     definitely seeing and feeling progress. I can’t wait to look back on this experience and reflect on the full effect on how you 
+//     shaped my bright future!`,
+//     name: "Reza T.",
+//     designation: "Client",
+//     src: "/images/testimonial4.jpg",
+//   },
+// ];
 
 
-const item = [
-  {
-    quote:
-      "Ariana’s natural ability to connect with others, combined with her authenticity, allows her to deeply understand her clients' needs and provide genuine support.",
+// const item = [
+//   {
+//     quote:
+//       "Ariana’s natural ability to connect with others, combined with her authenticity, allows her to deeply understand her clients' needs and provide genuine support.",
 
-    title: "Empathy and Authenticity",
-  },
-  {
-    quote:
-      "Growing up with diverse cultural influences, Ariana is perceptive to different perspectives, making her adept at helping clients from all walks of life.",
+//     title: "Empathy and Authenticity",
+//   },
+//   {
+//     quote:
+//       "Growing up with diverse cultural influences, Ariana is perceptive to different perspectives, making her adept at helping clients from all walks of life.",
 
-    title: "Cultural Awareness",
-  },
-  {
-    quote: "Ariana is passionate about growth and self-love. She helps clients evolve by guiding them through their journey of self-discovery and empowering them to recognize their own strengths.",
+//     title: "Cultural Awareness",
+//   },
+//   {
+//     quote: "Ariana is passionate about growth and self-love. She helps clients evolve by guiding them through their journey of self-discovery and empowering them to recognize their own strengths.",
 
-    title: "Personal Growth Focus",
-  },
-  {
-    quote:
-      "With over a decade of experience in the hospitality industry, Ariana excels at making others feel seen, heard, and valued, creating a safe and welcoming space for her clients.",
+//     title: "Personal Growth Focus",
+//   },
+//   {
+//     quote:
+//       "With over a decade of experience in the hospitality industry, Ariana excels at making others feel seen, heard, and valued, creating a safe and welcoming space for her clients.",
    
-    title: "Experience in Service and Hospitality",
-  },
-  {
-    quote:
-      "Ariana blends her knowledge of yoga, Reiki, and mindfulness practices to facilitate a well-rounded, nurturing experience for her clients.",
+//     title: "Experience in Service and Hospitality",
+//   },
+//   {
+//     quote:
+//       "Ariana blends her knowledge of yoga, Reiki, and mindfulness practices to facilitate a well-rounded, nurturing experience for her clients.",
    
-    title: "Holistic Approach",
-  },
-  {
-    quote:
-      "She is detail-oriented, considerate, and values honesty, growth, and integrity, ensuring that her clients receive tailored advice that aligns with their personal goals.",
+//     title: "Holistic Approach",
+//   },
+//   {
+//     quote:
+//       "She is detail-oriented, considerate, and values honesty, growth, and integrity, ensuring that her clients receive tailored advice that aligns with their personal goals.",
   
-    title: "Attention to Detail and Thoughtfulness",
-  },
-  {
-    quote:
-      "Ariana’s journey from hospitality to life coaching shows her dedication to empowering others, teaching clients how to embrace change, take risks, and live authentically.",
+//     title: "Attention to Detail and Thoughtfulness",
+//   },
+//   {
+//     quote:
+//       "Ariana’s journey from hospitality to life coaching shows her dedication to empowering others, teaching clients how to embrace change, take risks, and live authentically.",
  
-    title: "Supportive Mentor",
-  },
-];
+//     title: "Supportive Mentor",
+//   },
+// ];
 export default function Home() {
   return (
     <div className="overflow-x-hidden bg-green-200">
@@ -270,7 +270,6 @@ export default function Home() {
     {/* SERVICES */}
     <div id="services" className="">
       <Services/>
-
     </div>
 {/* TESTIMONIALS */}
 <div
