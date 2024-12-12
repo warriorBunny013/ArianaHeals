@@ -103,7 +103,7 @@ import {Services} from "@/components/ui/services";
 // ];
 export default function Home() {
   return (
-    <div className="overflow-x-hidden bg-green-100">
+    <div className="overflow-x-hidden bg-purple-100">
       {/* HOME PAGE */}
       <div className="overflow-x-hidden font-serif"
       >
@@ -111,10 +111,10 @@ export default function Home() {
 
         <div 
         
-          className="flex justify-center lg:justify-between bgr-[#3d4435] bg-green-950 "
-          // style={{
-          //   background: "linear-gradient(270deg, #3d4435, var(--slate-300))",
-          // }}
+          className="flex justify-center lg:justify-between bgr-[#3d4435] "
+          style={{
+            background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+          }}
           
         >
           <div className="lg:ml-20 flex justify-center">
@@ -281,7 +281,11 @@ export default function Home() {
   </h1>
   <div className="flex flex-wrap gap-10 pb-20 px-8 sm:px-20 lg:px-60">
     {/* Testimonial 1 */}
-    <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10">
+    <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+     style={{
+      background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+    }}
+    >
       <div className="flex items-center mb-2">
         <span className="text-yellow-400 text-xl">★★★★★</span>
       </div>
@@ -293,7 +297,11 @@ export default function Home() {
       </div>
     </div>
     {/* Testimonial 2 */}
-    <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10">
+    <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+     style={{
+      background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+    }}
+    >
       <div className="flex items-center mb-2">
         <span className="text-yellow-400 text-xl">★★★★★</span>
       </div>
@@ -313,10 +321,10 @@ export default function Home() {
 
       <footer 
       className="pt-10 bg-green-950"
-      //  style={{
-      //   background:
-      //     "linear-gradient(180deg, var(--black), var(--slate-900) ",
-      // }}
+       style={{
+        background:
+          "linear-gradient(180deg, var(--black), var(--slate-900) ",
+      }}
       >
           <div className='w-full  mx-auto max-w-screen-xl p-4 md:flex gap-3 md:items-center md:justify-between'>
             <div className='max-w-1/2 mb-10 text-sm text-gray-300'>

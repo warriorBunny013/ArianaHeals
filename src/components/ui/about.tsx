@@ -7,10 +7,10 @@ const About: React.FC = () => {
 
   return (
     <div className="pt-40  bg-green-950 pb-10 mt-40 overflow-x-hidden pl-5 pr-5 lg:px-40 justify-center font-serif"
-    // style={{
-    //     background:
-    //       "linear-gradient(120deg, var(--black), var(--slate-900) ",
-    //   }}
+    style={{
+        background:
+          "linear-gradient(120deg, var(--black), var(--slate-900) ",
+      }}
     >
       <motion.div
         initial={{ opacity: 0, y: 100 }}
