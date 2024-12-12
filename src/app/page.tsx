@@ -103,7 +103,7 @@ import {Services} from "@/components/ui/services";
 // ];
 export default function Home() {
   return (
-    <div className="overflow-x-hidden bg-orange-100">
+    <div className="overflow-x-hidden bg-green-100">
       {/* HOME PAGE */}
       <div className="overflow-x-hidden font-serif"
       >
