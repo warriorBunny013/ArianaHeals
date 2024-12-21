@@ -103,7 +103,7 @@ import {Services} from "@/components/ui/services";
 // ];
 export default function Home() {
   return (
-    <div className="overflow-x-hidden bg-green-100">
+    <div className="overflow-x-hidden bg-[#dbdf9d]">
       {/* HOME PAGE */}
       <div className="overflow-x-hidden font-serif"
       >
@@ -276,12 +276,16 @@ export default function Home() {
   id="testimonials"
   className="pb-40 border-b border-gray-600 text-slate-100"
 >
-  <h1 className="text-4xl font-serif text-black font-medium text-center my-8 mb-10">
+  <div className="flex flex-col">
+  <h1 className="text-4xl font-serif text-black font-medium text-center mt-8">
     What People Are Saying
   </h1>
-  <div className="flex flex-wrap gap-10 pb-20 px-8 sm:px-20 lg:px-60">
+  <div className="flex justify-center mt-4 mb-6"><img src="/images/arrow.png" className="w-20" alt="arrow"/></div>
+  </div>
+  
+  <div className="flex flex-wrap md:flex-nowrap gap-10 pb-20 px-8 sm:px-20 lg:px-60">
     {/* Testimonial 1 */}
-    <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+    <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
      style={{
       background: "linear-gradient(180deg, var(--black), var(--slate-900))",
     }}
@@ -297,7 +301,7 @@ export default function Home() {
       </div>
     </div>
     {/* Testimonial 2 */}
-    <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+    <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
      style={{
       background: "linear-gradient(180deg, var(--black), var(--slate-900))",
     }}
@@ -312,6 +316,21 @@ export default function Home() {
         <div className="font-bold text-md sm:text-lg font-serif">~ Annie</div>
       </div>
     </div>
+    {/* <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+     style={{
+      background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+    }}
+    >
+      <div className="flex items-center mb-2">
+        <span className="text-yellow-400 text-xl">★★★★★</span>
+      </div>
+      <div>
+        “Ariana’s insights into human design gave me clarity about my strengths and how to navigate life in alignment with my nature. Her support built my confidence to follow my unique path. I’ve seen incredible changes and love sharing her wisdom with friends and family.”
+      </div>
+      <div className="flex justify-end mt-4">
+        <div className="font-bold text-md sm:text-lg font-serif">~ Annie</div>
+      </div>
+    </div> */}
   </div>
 </div>
 
