@@ -9,7 +9,7 @@ export default function AboutPage() {
 </div>
 <div
 id="testimonials"
-className="pb-40 rounded-t-[5rem] lg:rounded-t-[10rem] text-slate-100"
+className="pb-40 rounded-t-[2rem] lg:rounded-t-[10rem] text-slate-100"
 style={{
     background: "linear-gradient(180deg, var(--black), var(--slate-900))",
   }}
