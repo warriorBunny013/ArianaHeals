@@ -1,5 +1,5 @@
 export default function AboutPage() {
-    return  <div className="overflow-x-hidden bg-gray-100"
+    return  <div className="overflow-x-hidden bg-[#dbdf9d]"
     >
    
 {/* holistic life coaching */}
