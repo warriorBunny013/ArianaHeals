@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 // import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 // import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import About from "@/components/ui/about";
 import {Services} from "@/components/ui/services";
+import { useRouter } from 'next/navigation';
 
 // import dynamic from "next/dynamic";
 // import CardDemo from "@/components/blocks/cards-demo-2";
@@ -102,16 +104,17 @@ import {Services} from "@/components/ui/services";
 //   },
 // ];
 export default function Home() {
+  const router = useRouter();
   return (
     <div className="overflow-x-hidden bg-[#dbdf9d]">
       {/* HOME PAGE */}
-      <div className="overflow-x-hidden font-serif"
+      <div className="overflow-x-hidden playfair-display-regular"
       >
       
 
         <div 
         
-          className="flex justify-center lg:justify-between bgr-[#3d4435] "
+          className="flex justify-center lg:justify-between"
           style={{
             background: "linear-gradient(180deg, var(--black), var(--slate-900))",
           }}
@@ -121,8 +124,8 @@ export default function Home() {
               <img src='/images/logoAriana.avif' className="w-[6rem] py-2" alt='logo'/>
             </div>
           
-          <div className="navbar-center hidden font-serif text-slate-100 mt-8 lg:flex">
-            <ul className="menu menu-horizontal flex mr-10 text-md font-extralight px-1">
+          <div className="navbar-center hidden playfair-display-regular text-slate-100 mt-8 lg:flex">
+            <ul className="menu menu-horizontal flex mr-10 text-lg font-extralight px-1">
               <li><a href="#about" 
               // onClick={() => navigateTo('about')} 
               className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">About me</a></li>
@@ -187,12 +190,12 @@ export default function Home() {
           <div className='pt-1 lg:pt-20 lg:pr-[10rem] lg:flex-col justify-center'>
             
             <div 
-              className='font-serif text-black mr-10 font-medium text-5xl leading-30 xl:text-6xl mb-4 '
+              className='playfair-display-regular text-black mr-10 font-medium text-5xl leading-30 xl:text-6xl mb-4 '
             >
               Ready to <span className=' text-green-600 rounded-top-xl'>Unlock</span><br/> Your True Potential?
             </div>
             <div 
-              className=' lg:w-[65vh] hidden md:flex pr-10 md:pr-0 text-sm lg:text-lg font-serif text-gray-700'
+              className=' lg:w-[65vh] hidden md:flex pr-10 md:pr-0 text-lg lg:text-lg playfair-display-regular text-gray-700'
             >
             &quot; Spiritual alignment through prana healing & coaching, human design enthusiast, and into all things mystical &quot;
             </div>
@@ -203,7 +206,7 @@ export default function Home() {
             href="#services" 
             // onClick={() => navigateTo('newsletter')} 
             
-            className=" mt-5 md:mt-0 bg-black rounded-md font-normal text-sm lg:text-lg px-10 text-white font-serif py-4 cursor-pointer ease-in hover:bg-gray-900 "
+            className=" mt-5 md:mt-0 bg-black rounded-md font-normal text-sm lg:text-lg px-10 text-white playfair-display-regular py-4 cursor-pointer ease-in hover:bg-gray-900 "
             style={{
               background:
                 "linear-gradient(180deg, var(--black), var(--slate-900) ",
@@ -274,10 +277,10 @@ export default function Home() {
 {/* TESTIMONIALS */}
 <div
   id="testimonials"
-  className="pb-40 border-b border-gray-600 text-slate-100"
+  className="pb-40   text-slate-100"
 >
   <div className="flex flex-col">
-  <h1 className="text-4xl font-serif text-black font-medium text-center mt-8">
+  <h1 className="text-4xl playfair-display-regular text-black font-medium text-center mt-8">
     What People Are Saying
   </h1>
   <div className="flex justify-center mt-4 mb-6"><img src="/images/arrow.png" className="w-20" alt="arrow"/></div>
@@ -285,7 +288,7 @@ export default function Home() {
   
   <div className="flex flex-wrap md:flex-nowrap gap-10 pb-20 px-8 sm:px-20 lg:px-60">
     {/* Testimonial 1 */}
-    <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+    <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-lg text-gray-200 playfair-display-regular p-8 sm:p-10"
      style={{
       background: "linear-gradient(180deg, var(--black), var(--slate-900))",
     }}
@@ -301,7 +304,7 @@ export default function Home() {
       </div>
     </div>
     {/* Testimonial 2 */}
-    <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
+    <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-lg text-gray-200 playfair-display-regular p-8 sm:p-10"
      style={{
       background: "linear-gradient(180deg, var(--black), var(--slate-900))",
     }}
@@ -334,6 +337,37 @@ export default function Home() {
   </div>
 </div>
 
+{/* BLOG */}
+<div className="flex flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap gap-4 justify-between mx-10 lg:mx-40 mb-40">
+<div className="rounded overflow-hidden max-w-[40rem] bg-gray-50 pb-3 playfair-display-regular flex flex-col">
+                                        <div className="relative">
+                                            <img className="w-full" src="images/blog.jpg" alt="services" />
+                                            <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+                                        </div>
+                                        <div className="px-6 py-4 mb-auto">
+                                            <div className="text-2xl font-bold text-gray-900 hover:text-indigo-600 cursor-pointer transition duration-500 ease-in-out inline-block mb-2">Understand Life coaching v/s Therapy</div>
+                                            <p className="text-gray-700 [word-spacing:2px] text-md playfair-display-regular">2 min read</p>
+                                        </div>
+                                        <div className="px-6 py-3 flex flex-row items-center justify-between">
+                                            <button
+                                                className="ml-1 bg-black py-2 px-4 text-white "
+                                                onClick={() => router.push('/about')}
+                                            >
+                                                Read here
+                                            </button>
+                                            {/* <span className="ml-1 text-black font-bold text-xl"></span> */}
+                                        </div>
+</div>
+<div className="lg:ml-4 "> 
+  <h1 className="text-6xl lg:text-8xl playfair-display-semibold">Read</h1>
+  <h1 className="text-6xl lg:text-8xl playfair-display-semibold">My approach</h1>
+  <h1 className="text-6xl lg:text-8xl playfair-display-semibold">In more</h1>
+  <h1 className="text-5xl lg:text-7xl playfair-display-semibold">Detail</h1>
+  <img className="w-20 hidden lg:flex" src="/images/arrow.png" alt="arrow"/>
+  <img className="w-20 flex ml-10 lg:hidden" src="/images/arrow-right.png" alt="arrow"/>
+  </div>
+
+</div>
 
 
       {/* FOOTER */}
@@ -347,7 +381,7 @@ export default function Home() {
       >
           <div className='w-full  mx-auto max-w-screen-xl p-4 md:flex gap-3 md:items-center md:justify-between'>
             <div className='max-w-1/2 mb-10 text-sm text-gray-300'>
-              <span className='font-bold'>Disclaimer:</span> The life coaching services provided by Ariana Sadre, Holistic Life Coach, are designed to guide and support personal growth, alignment, and well-being. These services are not a substitute for medical, psychological, or professional advice. Results may vary, and all actions taken based on coaching sessions are the client&apos;s responsibility. Always consult appropriate professionals for health, legal, or financial concerns.
+              <span className='font-bold '>Disclaimer:</span> The life coaching services provided by Ariana Sadre, Holistic Life Coach, are designed to guide and support personal growth, alignment, and well-being. These services are not a substitute for medical, psychological, or professional advice. Results may vary, and all actions taken based on coaching sessions are the client&apos;s responsibility. Always consult appropriate professionals for health, legal, or financial concerns.
             </div>
           </div>
           <div className="w-full mx-auto max-w-screen-xl p-4 md:flex gap-3 md:items-center md:justify-between">

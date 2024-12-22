@@ -11,6 +11,8 @@ const About: React.FC = () => {
         background:
           "linear-gradient(120deg, var(--black), var(--slate-900) ",
       }}
+
+      
     >
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -24,7 +26,7 @@ const About: React.FC = () => {
           alt="Ariana"
         />
         <div className="flex flex-col justify-around p-4 leading-normal">
-          <h5 className="lg:mb-2 text-3xl text-center lg:text-5xl font-medium font-serif tracking-tight text-white dark:text-white">
+          <h5 className="lg:mb-2 text-3xl text-center lg:text-5xl font-medium playfair-display-regular tracking-tight text-gray-100 dark:text-white">
           
 Alignment + Self Love Coach
           </h5>
@@ -45,7 +47,7 @@ I pride myself in being  authentic in my connections. My purpose is to help you 
 
 I am here to help raise collective consciousness + awareness.
           </p>
-          <p className="mb-3 font-extralight font-serif pb-10 flex text-sm lg:text-lg [word-spacing:2px] text-slate-100">
+          <p className="mb-3 font-extralight font-sans pb-10 flex text-sm lg:text-lg leading-tight  [word-spacing:2px] text-slate-200">
           Born and raised in San Diego to a Persian father and Mexican-American mother, I grew up embracing diverse cultures and perspectives. My journey began in hospitality, where I helped open five restaurants and earned a degree in Hotel Management from SDSU. After working at the W Hotel Times Square, I co-founded RoseWater Cocktail Co. and later became the operating partner of Botanica, blending art and community through food and cocktails.
 
 Driven by a lifelong passion for helping others, I earned my Coaching Certificate from the Dharma Coaching Institute to empower individuals on their life journeys. I value honesty, growth, and making meaningful connections. In my spare time, I enjoy cooking, yoga, traveling, and spending time with loved ones.
