@@ -28,7 +28,7 @@ const About: React.FC = () => {
         <div className="flex flex-col justify-around p-4 leading-normal">
           <h5 className="lg:mb-2 text-3xl text-center lg:text-5xl font-medium playfair-display-regular tracking-tight text-gray-100 dark:text-white">
           
-Alignment + Self Love Coach
+          Spiritual alignment & Pranic healing
           </h5>
           <p className="pb-5 italic mt-10 text-md font-serif lg:text-lg text-gray-400">
            ~ I am a natural networker,

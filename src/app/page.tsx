@@ -138,7 +138,10 @@ export default function Home() {
               <li><a href="#testimonials" 
               // onClick={() => navigateTo('testimonials')} 
               className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">Testimonials</a></li>
-              <li><a href="#contact" 
+              <li><a 
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=arianasadre@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
               // onClick={() => navigateTo('testimonials')} 
               className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">Contact</a></li>
             </ul>
@@ -390,7 +393,10 @@ export default function Home() {
                 <li><a href="#about" 
                 // onClick={() => navigateTo('about')} 
                 className="hover:underline me-4 cursor-pointer md:me-6 block py-2 px-4 text-white">About</a></li>
-                <li><a href="mailto:uditi013@gmail.com" 
+                <li><a 
+               href="https://mail.google.com/mail/?view=cm&fs=1&to=arianasadre@gmail.com"
+               target="_blank"
+               rel="noopener noreferrer"
                 // onClick={handleContactClick} 
                 className="hover:underline me-4 cursor-pointer md:me-6 block py-2 px-4 text-white">Contact</a></li>
                 <li><a href="#services" 
