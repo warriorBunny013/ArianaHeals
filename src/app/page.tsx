@@ -106,7 +106,11 @@ import { useRouter } from 'next/navigation';
 export default function Home() {
   const router = useRouter();
   return (
-    <div className="overflow-x-hidden bg-[#dbdf9d]">
+    <div className="overflow-x-hidden bg-[#dbdf9d]"
+    // style={{
+    //   background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+    // }}
+    >
       {/* HOME PAGE */}
       <div className="overflow-x-hidden playfair-display-regular"
       >
@@ -198,7 +202,7 @@ export default function Home() {
               Ready to <span className=' text-green-600 rounded-top-xl'>Unlock</span><br/> Your True Potential?
             </div>
             <div 
-              className=' lg:w-[65vh] hidden md:flex pr-10 md:pr-0 text-lg lg:text-lg playfair-display-regular text-gray-700'
+              className=' lg:w-[65vh] my-3 hidden md:flex pr-10 md:pr-0 text-sm lg:text-xl playfair-display-regular text-gray-700'
             >
             &quot; Spiritual alignment through prana healing & coaching, human design enthusiast, and into all things mystical &quot;
             </div>
