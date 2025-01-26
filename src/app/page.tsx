@@ -264,7 +264,7 @@ export default function Home() {
         <span className="text-yellow-400 text-xl">★★★★★</span>
       </div>
       <div>
-        “Ariana’s life coaching and lessons on human design helped me understand my core self. Her guidance created a safe space for open discussions, improving my relationships, communication, and self-awareness. I now feel empowered to navigate life authentically, and the progress I’ve made is incredible.”
+        “Ariana&apos;s life coaching and lessons on human design helped me understand my core self. Her guidance created a safe space for open discussions, improving my relationships, communication, and self-awareness. I now feel empowered to navigate life authentically, and the progress I&apos;ve made is incredible.”
       </div>
       <div className="flex justify-end mt-4">
         <div className="font-bold text-md sm:text-lg font-serif">~ Reza T.</div>
@@ -280,28 +280,13 @@ export default function Home() {
         <span className="text-yellow-400 text-xl">★★★★★</span>
       </div>
       <div>
-        “Ariana’s insights into human design gave me clarity about my strengths and how to navigate life in alignment with my nature. Her support built my confidence to follow my unique path. I’ve seen incredible changes and love sharing her wisdom with friends and family.”
+        “Ariana&apos;s insights into human design gave me clarity about my strengths and how to navigate life in alignment with my nature. Her support built my confidence to follow my unique path. I&apos;ve seen incredible changes and love sharing her wisdom with friends and family.”
       </div>
       <div className="flex justify-end mt-4">
         <div className="font-bold text-md sm:text-lg font-serif">~ Annie</div>
       </div>
     </div>
-    
-    {/* <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
-     style={{
-      background: "linear-gradient(180deg, var(--black), var(--slate-900))",
-    }}
-    >
-      <div className="flex items-center mb-2">
-        <span className="text-yellow-400 text-xl">★★★★★</span>
-      </div>
-      <div>
-        “Ariana’s insights into human design gave me clarity about my strengths and how to navigate life in alignment with my nature. Her support built my confidence to follow my unique path. I’ve seen incredible changes and love sharing her wisdom with friends and family.”
-      </div>
-      <div className="flex justify-end mt-4">
-        <div className="font-bold text-md sm:text-lg font-serif">~ Annie</div>
-      </div>
-    </div> */}
+
   </div>
   <div className="flex justify-center pb-20 px-8 sm:px-20 lg:px-60"> <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-lg text-gray-200 playfair-display-regular p-8 sm:p-10"
      style={{
@@ -312,8 +297,8 @@ export default function Home() {
         <span className="text-yellow-400 text-xl">★★★★★</span>
       </div>
       <div>
-        “Honestly I've had several people just randomly at the bar not anyone I knew comment on my energy. It was just all very positive comments on how I was presenting myself energetically. I think there's definitely been so much healing and improvement. 
-        I do feel that personally as well. It's just cool now to have outside unbiased eyes commenting on it. You know kind of like confirmation on what I'm feeling internally is actually like. They don't even know what's happening, but they're commenting on it as well so that was really super cool. I continue to feel lighter and. My attachment loosening for sure on my ex.”
+        “Honestly I&apos;ve had several people just randomly at the bar not anyone I knew comment on my energy. It was just all very positive comments on how I was presenting myself energetically. I think there&apos;s definitely been so much healing and improvement. 
+        I do feel that personally as well. It&apos;s just cool now to have outside unbiased eyes commenting on it. You know kind of like confirmation on what I&apos;m feeling internally is actually like. They don&apos;t even know what&apos;s happening, but they&apos;re commenting on it as well so that was really super cool. I continue to feel lighter and. My attachment loosening for sure on my ex.”
       </div>
       <div className="flex justify-end mt-4">
         <div className="font-bold text-md sm:text-lg font-serif">~ Joy</div>
