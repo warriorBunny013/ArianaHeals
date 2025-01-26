@@ -131,7 +131,7 @@ export default function Home() {
               <li><a href="#about" 
               // onClick={() => navigateTo('about')} 
               className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">About Ariana</a></li>
-              <li><a href="#services" 
+              <li><a href="#lifecoaching" 
               // onClick={() => navigateTo('services')} 
               className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">My Method</a></li>
                 
@@ -145,7 +145,8 @@ export default function Home() {
             <div className="navbar-center hidden playfair-display-regular text-slate-100 mt-8 lg:flex">
             <ul className="menu menu-horizontal flex gap-10 text-lg font-extralight px-1">
               
-                <li><a href="#lifecoaching" 
+                <li><a 
+                href="#services" 
               // onClick={() => navigateTo('services')} 
               className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">Offerings</a></li>
 
