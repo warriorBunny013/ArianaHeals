@@ -106,7 +106,7 @@ import { useRouter } from 'next/navigation';
 export default function Home() {
   const router = useRouter();
   return (
-    <div className="overflow-x-hidden bg-[#dbdf9d]"
+    <div className="overflow-x-hidden bg-white"
     // style={{
     //   background: "linear-gradient(180deg, var(--black), var(--slate-900))",
     // }}
@@ -118,80 +118,48 @@ export default function Home() {
 
         <div 
         
-          className="flex justify-center lg:justify-between"
-          style={{
-            background: "linear-gradient(180deg, var(--black), var(--slate-900))",
-          }}
+          className="flex justify-center lg:justify-center bg-black"
+          // style={{
+          //   background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+          // }}
           
         >
-          <div className="lg:ml-20 flex justify-center">
-              <img src='/images/logoAriana.avif' className="w-[6rem] py-2" alt='logo'/>
-            </div>
+       
           
           <div className="navbar-center hidden playfair-display-regular text-slate-100 mt-8 lg:flex">
-            <ul className="menu menu-horizontal flex mr-10 text-lg font-extralight px-1">
+            <ul className="menu menu-horizontal flex gap-10 text-lg font-extralight px-1">
               <li><a href="#about" 
               // onClick={() => navigateTo('about')} 
-              className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">About me</a></li>
+              className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">About Ariana</a></li>
               <li><a href="#services" 
               // onClick={() => navigateTo('services')} 
-              className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">Services</a></li>
+              className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">My Method</a></li>
+                
+         
+            </ul>
+            
+          </div>
+          <div className="flex mx-10 justify-center">
+              <img src='/images/logoAriana.avif' className="w-[8rem] " alt='logo'/>
+            </div>
+            <div className="navbar-center hidden playfair-display-regular text-slate-100 mt-8 lg:flex">
+            <ul className="menu menu-horizontal flex gap-10 text-lg font-extralight px-1">
+              
                 <li><a href="#lifecoaching" 
               // onClick={() => navigateTo('services')} 
-              className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">Life Coaching</a></li>
-              <li><a href="#testimonials" 
-              // onClick={() => navigateTo('testimonials')} 
-              className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">Testimonials</a></li>
+              className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">Offerings</a></li>
+
               <li><a 
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=arianasadre@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               // onClick={() => navigateTo('testimonials')} 
-              className="block py-2 px-4 hover:rounded-sm hover:duration-100 hover:bg-slate-900">Contact</a></li>
+              className="block py-2 px-4 hover:rounded-sm hover:duration-100 font-sans hover:bg-slate-900">Contact</a></li>
             </ul>
+            
           </div>
-          {/* <div className="navbar-start">
-            <button onClick={toggleMenu} className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-white"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </button>
-           
-          </div> */}
-   
- 
-     {/* <div className="navbar-end hidden lg:flex mr-10">
-            <a href="mailto:uditi013@gmail.com" onClick={handleContactClick} className="btn border-0 text-white font-serif font-extralight">Contact me</a>
-          </div> */}
         </div>
 
-        {/* Fullscreen Slider Menu */}
-        {/* <div className={`fixed top-0 right-0 h-full w-full transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}>
-          <div className="flex justify-end p-4">
-            <button onClick={toggleMenu} className="text-black text-3xl">
-              &times;
-            </button>
-          </div>
-          <ul className="flex flex-col items-center justify-center h-full font-serif text-black text-2xl">
-            <li className="my-4"><a href="#about" onClick={() => navigateTo('about')} className="block py-2">About me</a></li>
-            <li className="my-4"><a href="#services" onClick={() => navigateTo('services')} className="block py-2">Services</a></li>
-            <li className="my-4"><a href="#testimonials" onClick={() => navigateTo('testimonials')} className="block py-2">Testimonials</a></li>
-          </ul>
-        </div> */}
-        {/* <div className="bg-[#dbe47c] flex  justify-center md:hidden">
-              <img src='logo.png' className='w-[12rem] pb-6' alt='logo'/>
-            </div> */}
         {/* HERO SECTION STARTS FROM HERE!! */}
         <div className="container mx-auto flex mt-10 flex-wrap md:flex-nowrap pl-10 pr-10  justify-center ">
           <div className='pt-1 lg:pt-20 lg:pr-[10rem] lg:flex-col justify-center'>
@@ -199,10 +167,10 @@ export default function Home() {
             <div 
               className='playfair-display-regular text-black mr-10 font-medium text-5xl leading-30 xl:text-6xl mb-4 '
             >
-              Ready to <span className=' text-green-600 rounded-top-xl'>Unlock</span><br/> Your True Potential?
+              Ready to <span className=' text-[#abb23d] rounded-top-xl'>Unlock</span><br/> Your True Potential?
             </div>
             <div 
-              className=' lg:w-[65vh] my-3 hidden md:flex pr-10 md:pr-0 text-sm lg:text-xl playfair-display-regular text-gray-700'
+              className=' lg:w-[65vh] my-3 hidden md:flex pr-10 md:pr-0 text-sm lg:text-lg font-sans text-gray-700'
             >
             &quot; Spiritual alignment through prana healing & coaching, human design enthusiast, and into all things mystical &quot;
             </div>
@@ -211,7 +179,7 @@ export default function Home() {
               <div className="flex flex-col justify-end"> 
             <a 
             href="#services" 
-            // onClick={() => navigateTo('newsletter')} 
+       
             
             className=" mt-5 md:mt-0 bg-black rounded-md font-normal text-sm lg:text-lg px-10 text-white playfair-display-regular py-4 cursor-pointer ease-in hover:bg-gray-900 "
             style={{
@@ -224,28 +192,20 @@ export default function Home() {
         
           </a></div>
             <div> <img src='/images/arrow.png' className="w-[4rem] hidden md:flex pb-6" alt='arrow'/></div>
-            {/* <div 
-              className='rubik-wet-paint-regular text-sm lg:text-md italic mb-2 '
-            >
-              ~ Ariana Sadre
-              
-            </div> */}
+            
             </div>
            
           
           </div>
-          {/* <picture> */}
+       
           <div className='w-[77vh]'>
             <img src='/images/Ariana.avif' className="rounded-full mt-5 lg:mt-0" alt='hero'/>
               
           </div>
-          {/* </picture> */}
+       
         </div>
       </div>
-      {/* <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards items={item} direction="right"
-        speed="slow"/>
-      </div> */}
+
 
       {/* ABOUT ME */}
       <div id="about">
@@ -257,7 +217,7 @@ export default function Home() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-lg lg:text-3xl font-serif font-medium text-gray-700 dark:text-white">
+            <h1 className="text-lg lg:text-3xl font-serif font-medium text-[#abb23d] ">
             Life coaching vs Therapy <br />
               <span className="text-4xl md:text-[6rem] text-black font-bold mt-1 leading-none">
               Holistic Approach Life Coaching 
@@ -326,6 +286,7 @@ export default function Home() {
         <div className="font-bold text-md sm:text-lg font-serif">~ Annie</div>
       </div>
     </div>
+    
     {/* <div className="border rounded-md shadow-lg bg-green-950 text-md font-serif p-8 sm:p-10"
      style={{
       background: "linear-gradient(180deg, var(--black), var(--slate-900))",
@@ -342,11 +303,27 @@ export default function Home() {
       </div>
     </div> */}
   </div>
+  <div className="flex justify-center pb-20 px-8 sm:px-20 lg:px-60"> <div className="border w-[40rem] rounded-md shadow-lg bg-green-950 text-lg text-gray-200 playfair-display-regular p-8 sm:p-10"
+     style={{
+      background: "linear-gradient(180deg, var(--black), var(--slate-900))",
+    }}
+    >
+      <div className="flex items-center mb-2">
+        <span className="text-yellow-400 text-xl">★★★★★</span>
+      </div>
+      <div>
+        “Honestly I've had several people just randomly at the bar not anyone I knew comment on my energy. It was just all very positive comments on how I was presenting myself energetically. I think there's definitely been so much healing and improvement. 
+        I do feel that personally as well. It's just cool now to have outside unbiased eyes commenting on it. You know kind of like confirmation on what I'm feeling internally is actually like. They don't even know what's happening, but they're commenting on it as well so that was really super cool. I continue to feel lighter and. My attachment loosening for sure on my ex.”
+      </div>
+      <div className="flex justify-end mt-4">
+        <div className="font-bold text-md sm:text-lg font-serif">~ Joy</div>
+      </div>
+    </div></div>
 </div>
 
 {/* BLOG */}
 <div className="flex flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap gap-4 justify-between mx-10 lg:mx-40 mb-40">
-<div className="rounded overflow-hidden max-w-[40rem] bg-gray-50 pb-3 playfair-display-regular flex flex-col">
+<div className="rounded overflow-hidden max-w-[40rem] border-2 bg-lime-50 pb-3 playfair-display-regular flex flex-col">
                                         <div className="relative">
                                             <img className="w-full" src="images/blog.jpg" alt="services" />
                                             <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
@@ -375,7 +352,46 @@ export default function Home() {
   </div>
 
 </div>
+{/* <div>
+        <img className="bg-contain" src="images/image.jpeg" alt="image"/>
+        
+        </div> */}
 
+           
+      <div className="relative bg-gray-900 playfair-dispair-regular text-white">
+  {/* Heading Section */}
+  <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 p-6 text-center">
+    <div className="text-7xl playfair-display-regular text-white mb-2">Still here?</div>
+  <div 
+              className='playfair-display-regular text-slate-300 mr-10 text-xl lg:text-3xl leading-30  mb-4 '
+            >
+            Don’t wait—book your appointment and start your journey to healing!
+            </div>
+    <a 
+            href="#services" 
+       
+            
+            className=" mt-5 md:mt-0 bg-black rounded-md font-normal text-sm lg:text-lg px-10 text-white playfair-display-regular py-4 cursor-pointer ease-in hover:bg-gray-900 "
+            style={{
+              background:
+                "linear-gradient(180deg, var(--black), var(--slate-900) ",
+            }}
+            > 
+          Explore Services
+
+        
+          </a>
+  </div>
+
+  {/* Image Section */}
+  <div>
+    <img
+      src="images/image.jpeg"
+      className="w-full h-[400px] lg:h-[600px] object-cover"
+      alt="Ariana's Services"
+    />
+  </div>
+</div>
 
       {/* FOOTER */}
 

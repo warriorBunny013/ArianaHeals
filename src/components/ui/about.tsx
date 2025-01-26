@@ -6,11 +6,11 @@ const About: React.FC = () => {
  
 
   return (
-    <div className="pt-40  bg-green-950 pb-10 mt-40 overflow-x-hidden pl-5 pr-5 lg:px-40 justify-center font-serif"
-    style={{
-        background:
-          "linear-gradient(120deg, var(--black), var(--slate-900) ",
-      }}
+    <div className="pt-40   pb-10 mt-40 overflow-x-hidden pl-5 pr-5 lg:px-40 justify-center font-serif"
+    // style={{
+    //     background:
+    //       "linear-gradient(120deg, var(--black), var(--slate-900) ",
+    //   }}
 
       
     >
@@ -26,34 +26,23 @@ const About: React.FC = () => {
           alt="Ariana"
         />
         <div className="flex flex-col justify-around p-4 leading-normal">
-          <h5 className="lg:mb-2 text-3xl text-center lg:text-5xl font-medium playfair-display-regular tracking-tight text-gray-100 dark:text-white">
+          <h5 className="lg:mb-2 text-black text-3xl text-center lg:text-5xl font-medium playfair-display-regular tracking-tight ">
           
-          Spiritual alignment & Pranic healing
+          Spiritual Alignment through Pranic Healing
           </h5>
-          <p className="pb-5 italic mt-10 text-md font-serif lg:text-lg text-gray-400">
-           ~ I am a natural networker,
-
-a true empath
-
-&
-
- particularly perceptive. <br/>
-
- 
-
- 
-
-I pride myself in being  authentic in my connections. My purpose is to help you grow + feel empowered.
-
-I am here to help raise collective consciousness + awareness.
+          <p className="pb-5 italic mt-10 text-md font-serif lg:text-lg text-[#abb23d]">
+           ~ I am a natural networker, a true empath & particularly perceptive. I pride myself in being authentic in my connections. My purpose is to help you heal, grow + feel empowered. I am here to assist in raising collective consciousness + compassion.
           </p>
-          <p className="mb-3 font-extralight font-sans pb-10 flex text-sm lg:text-lg leading-tight  [word-spacing:2px] text-slate-200">
-          Born and raised in San Diego to a Persian father and Mexican-American mother, I grew up embracing diverse cultures and perspectives. My journey began in hospitality, where I helped open five restaurants and earned a degree in Hotel Management from SDSU. After working at the W Hotel Times Square, I co-founded RoseWater Cocktail Co. and later became the operating partner of Botanica, blending art and community through food and cocktails.
+          <p className="mb-3  text-slate-700 font-sans pb-10 flex text-sm lg:text-lg leading-tight [word-spacing:2px]">
+  Hi, I am Ariana. With 16+ years of experience in hospitality, I have learned how to navigate challenges, connect with people from all walks of life, and create systems that bring ease and flow to even the most chaotic of times. Along the way, I discovered my passion for another type of service, helping others heal and grow, which led me to become a Certified Pranic Healer and spiritual coach.
 
-Driven by a lifelong passion for helping others, I earned my Coaching Certificate from the Dharma Coaching Institute to empower individuals on their life journeys. I value honesty, growth, and making meaningful connections. In my spare time, I enjoy cooking, yoga, traveling, and spending time with loved ones.
-          </p>
+  Through energy work, Human Design, tarot, and holistic practices, I help guide others through life&rsquo;s tough moments&mdash;whether it is navigating big emotions, finding clarity in the chaos, or rediscovering your inner strength. I believe healing is deeply personal, but it does not have to be lonely. I am here to walk alongside you and help you align with the life you are meant to live.
+
+  Looking forward to connecting with you.
+</p>
+
           <div className="flex justify-end">
-            <img src="images/sign.png" className="w-[18rem]" alt="sign"/>
+            <img src="images/sign-2.png" className="w-[18rem]" alt="sign"/>
           </div>
      
         </div>
