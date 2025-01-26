@@ -350,7 +350,7 @@ export default function Home() {
   <div 
               className='playfair-display-regular text-slate-300 mr-10 text-xl lg:text-3xl leading-30  mb-4 '
             >
-            Don’t wait—book your appointment and start your journey to healing!
+            Don&apos;t wait—book your appointment and start your journey to healing!
             </div>
     <a 
             href="#services" 
