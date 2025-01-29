@@ -299,7 +299,7 @@ export default function Home() {
       </div>
       <div>
         “Honestly I&apos;ve had several people just randomly at the bar not anyone I knew comment on my energy. It was just all very positive comments on how I was presenting myself energetically. I think there&apos;s definitely been so much healing and improvement. 
-        I do feel that personally as well. It&apos;s just cool now to have outside unbiased eyes commenting on it. You know kind of like confirmation on what I&apos;m feeling internally is actually like. They don&apos;t even know what&apos;s happening, but they&apos;re commenting on it as well so that was really super cool. I continue to feel lighter and. My attachment loosening for sure on my ex.”
+        I do feel that personally as well. It&apos;s just cool now to have outside unbiased eyes commenting on it. You know kind of like confirmation on what I&apos;m feeling internally is actually like. They don&apos;t even know what&apos;s happening, but they&apos;re commenting on it as well so that was really super cool. I continue to feel lighter and my attachment loosening for sure on my ex.”
       </div>
       <div className="flex justify-end mt-4">
         <div className="font-bold text-md sm:text-lg font-serif">~ Joy</div>
